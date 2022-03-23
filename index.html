@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:og="http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Emeric BOYADJIAN" />
+  <meta name="keywords" content="Blog HuffPost html5 mmi" />
+  <meta name="description" content="Blog HuffPost réalisé en html5 en DUT MMI" />
+  <!-- Affichage standard sur périphérique mobile pour site adaptatif -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <!-- Données Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://mmi.univ-smb.fr/~boyadjie/" />
+  <meta property="og:image" content="http://mmi.univ-smb.fr/~boyadjie/image.png" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:description" content="Blog HuffPost" />
+  <meta property="og:title" content="HuffPost" />
+  <meta property="og:site_name" content="HuffPost" />
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+  <title>HuffPost</title>
+
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/article.css">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+</head>
+
+
+<body>
+	<div class="ombre"></div>
+    <!--------------->
+      <!--HEADER-->
+    <!--------------->
+    <header>
+      <a href=""><img src="images/Logotype.svg" alt="Logotype"></a>
+      <nav>
+        <a href="#">NEWS</a>
+        <a href="#">POLITICS</a>
+        <a href="#">ENTERTAINMENT</a>
+        <a href="#">LIFESTYLE</a>
+        <div id="circle">
+          <p id="points">...</p>
+          <a href="#" id="click" class="click"></a>
+        </div>
+      </nav>
+
+    </header>        
+    <!--/HEADER-->
+
+    <!--------------->
+      <!--MENU-->
+    <!--------------->
+    <div class="menu">
+            <div class="line">
+            	<a href="#" class="menu-link">TECH</a>
+            	<a href="#" class="menu-link">PARENTS</a>
+            	<a href="#" class="menu-link">VIDEO</a>
+            	<a href="#" class="menu-link">COMEDY</a>
+            	<a href="#" class="menu-link">STYLE</a>
+            	<a href="#" class="menu-link">PARENTS VOICES</a>
+            	<a href="#" class="menu-link">WHAT'S WORKING</a>
+            </div>
+
+            <div class="line">
+            	<a href="#" class="menu-link">MORTGAGES</a>
+            	<a href="#" class="menu-link">LOANS</a>
+            	<a href="#" class="menu-link">SAVINGS</a>
+            	<a href="#" class="menu-link">PENSIONS</a>
+            	<a href="#" class="menu-link">MONEY TRANSFERS</a>
+            	<a href="#" class="menu-link">HEALTH INSURANCE</a>
+            	<a href="#" class="menu-link">MONEY DEALS</a>
+            </div>
+
+            <div class="line">
+            	<a href="#" class="menu-link">BOOKS</a>
+            	<a href="#" class="menu-link">FILM</a>
+            	<a href="#" class="menu-link">MUSIC</a>
+            	<a href="#" class="menu-link">ART</a>
+            	<a href="#" class="menu-link">THEATRE + DANCE</a>
+            	<a href="#" class="menu-link">TICKETS</a></div>
+
+            <div class="line">
+            	<a href="#" class="menu-link">FOOTBALL</a>
+            	<a href="#" class="menu-link">SIX NATIONS</a>
+            	<a href="#" class="menu-link">WINTER OLYMPICS</a>
+            	<a href="#" class="menu-link">CRICKET</a>
+            	<a href="#" class="menu-link">GOLF</a>
+            	<a href="#" class="menu-link">TENNIS</a>
+            	<a href="#" class="menu-link">MOTOR RACING</a>
+            	<a href="#" class="menu-link">US SPORT</a>
+            	<a href="#" class="menu-link">RUGBY LEAGUE</a>
+            </div>
+    </div>
+    <!--/MENU-->
+
+    <!--------------->
+      <!--WIDGET-->
+    <!--------------->
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ebe4573d699b43d"></script>
+    <!--WIDGET-->
+
+    <!-- Div who limit the area for the article -->
+    <div class="wrap"> 
+
+    <!--------------->
+      <!--INTRO-->
+    <!--------------->
+
+      <!-- the categorie(s) of the article in red on the left-top -->
+      <h6 class="categories">Lifestyle</h6> 
+
+      <!-- Main title of the article-->
+      <h1 class="Title">Not The Royal Wedding: The Moment We Knew We'd Spend Our Lives Together</h1>
+
+      <!-- meta information of the article -->
+      <div id="DateButton">
+        <h6 class="Ameta">17/03/2018 07:01 GMT | Updated 9 hours ago</h6> 
+        <div class="Cbuton"> <!-- categories button -->
+
+          <input class="button" type="button" name="categorie1" value="Lifestyle"> <!-- categorie 1 -->
+          <input class="button" type="button" name="categorie2" value="Wedding"> <!-- categorie 2 -->
+
+        </div>
+      </div>
+
+      <!-- paragraph to introduce the article (chapo)-->
+      <h3 class="intro"> 
+        'I’d been on this search to find someone who was actually already in my life' – couples who are due to marry the same day as Harry and Meghan share their real-life love stories.
+      </h3>
+
+      <!-- autor area with a picture and his/her name  -->
+      <div class="author"> 
+
+        <img src="images/Profile.png" alt="Profile picture">
+        <h6>By Rachel Moss Amy Packham</h6>
+
+      </div>
+      <!--INTRO-->
+
+      <!--------------->
+        <!--Article-->
+      <!--------------->
+      <div class="txt"> <!-- text area -->
+
+        <h4 class="title"> <!-- title on the article -->
+          1. Love, according to fairytales: breath-taking first meetings, highly-charged glances, and whirlwind romances.
+        </h4>
+
+        <p>Love, according to real life: friendship, breakups, and the dawning realisation that actually, you’re made for each other.</p>
+
+        <p>For Emma Tretton and Rachel Sutton, and Shailesh Patel and Monica Chauhan - two of the couples sharing their stories as part of HuffPost UK’s ‘Not The Royal Wedding’ series celebrating couples getting married on 19 May - it was absence that made their hearts grow fonder. </p>
+
+        <p>Monica, 33, and Shailesh, 35, had two false starts to their relationship. Or three, if you count Shailesh’s unrequited schoolboy crush on Monica. “I’ve always liked Monica ever since I was very little. At that age in primary school you don’t really understand what it is, but I knew I ‘fancied’ her. I was too shy to even tell anyone, so I just kept it to myself,” he says. But while Shailesh was smitten all along, it took Monica much longer and some on-off dating to decide he was the man she wanted to be with.</p>
+
+      </div>
+
+      <!--------------->
+        <!--Picture-->
+      <!--------------->
+      <div class="picture"> <!-- picture area -->
+        <span class="effect"></span>
+        <img src="images/pict.png" alt="Acticle picture">
+        <p>Lauren Gosling-Powell for Huffpost UK</p><!-- caption -->
+
+      </div>
+      <!--/Picture-->
+
+      <div class="txt"> <!-- text area -->
+
+        <p>Meanwhile Emma, 26, and Rachel, 27, broke up for a year - before realising that they were meant to be. So, as both couples prepare to get married, we asked them: “When did you know you’d met ‘the one’?” Their stories are a refreshing reminder that not all relationships start like a Hollywood romance. </p>
+
+        <h4 class="title"> <!-- title on the article -->
+          2. Shailesh and Monica could have been childhood sweethearts, but it wasn’t until the pair finally met as adults in 2012 that romance blossomed - for a few dates, at any rate. After a year of no contact, they decided to try again.
+        </h4>
+
+        <p>But it wasn’t until they crossed paths again in 2015 that everything made sense. “Something was definitely different when we tried dating again - the spark was much more powerful,” says Monica.</p>
+
+        <p>Emma and Rachel got together at university - but their relationship only lasted four months before they broke up, spending a year apart. “During that year, I still very much cared, and would ask people who were friends with Emma about how she was,” says Rachel. “I don’t think people understood, but I let her go cause I’m a believer in if you love someone you need to let them go.” Emma too says she was thinking about Rachel a great deal, even though they’d split. </p>
+
+      <!-- quote area -->
+      <div class="quote"> 
+        
+        <p>While we can’t say the same for Shailesh, who knew Monica was ‘the one’ on their first date in 2012 (“I was on cloud nine! I just had to be patient for Monica to make up her mind”), Monica, Emma and Rachel prove the course of true love never does run smooth. After time apart from their partner, they each realised that the person they’d been looking for was there all along. </p>
+
+      </div>
+      <!-- /quote -->
+
+        <!-- text area -->
+        <p>Rachel and Emma were reunited at the time they were least expecting. There were no big declarations of love with presents and speeches - instead the pair bumped into each other on the university campus and felt like nothing had changed. </p>
+
+        <!-- list area -->
+        <ul>
+          <li><span class="li"> “Even though I was in my scruffy clothes and looked a mess we both laughed and it wasn’t awkward, surprisingly. I thought: ‘I want that girl back,’” says Rachel.</span></li>
+
+          <li><span class="li"> The pair got back together not long after Emma’s nan died, and she’d moved back in with her parents after graduating. She knew Rachel was the one to help her through it. </span></li>
+
+          <li><span class="li"> “Rachel stood by me from day one, helping me get through a really difficult time,” Emma says. </span></li>
+
+          <li><span class="li"> “It was like nothing had changed at all, we just snapped back to how we were before. That was when I knew she was 'the one'.” </span></li>
+        </ul>
+        <!-- /list -->
+
+      </div>
+    </div>
+    <!-- /ARTICLE -->
+
+    <!--------------->
+      <!--FOOTER-->
+    <!--------------->
+    <footer>
+      <div class="wrap">
+        <img src="images/Logotype.svg" alt="Logotype">
+        <div class="footer-container">
+          <div class="parts">
+            <a href="#">Advertise</a>
+            <a href="#">RSS</a>
+            <a href="#">Careers</a>
+          </div>
+
+          <div class="parts">
+            <a href="#">Corrections</a>
+            <a href="#">User Agreement</a>
+            <a href="#">Privacy</a>
+          </div>
+
+          <div class="parts">
+            <a href="#">Privacy</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Comment Policy</a>
+          </div>
+
+          <div class="parts">
+            <a href="#">About Us & FAQs</a>
+            <a href="#">About Our Ads</a>
+            <a href="#">Contact Us</a>
+          </div>
+      </div>
+      </div>
+    </footer>
+    <!-- /FOOTER -->
+	<script src="js/script.js"></script>
+</body>
+</html>
